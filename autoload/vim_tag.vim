@@ -19,14 +19,18 @@ endfunction
 
 " -- タグを追加したい場合、この下を修正する。 --
 
-let s:tags = ['主張', '根拠', '例', '推測', '事実', '引用', '原因', 'done', '!']
+let s:tags = ['主張', '理由', '証拠', '例', '推測', '事実', '引用', '原因', 'done', '!']
 
 function! vim_tag#claim(line)
     call setline('.', s:attach_tag(a:line, '主張'))
 endfunction
 
 function! vim_tag#reason(line)
-    call setline('.', s:attach_tag(a:line, '根拠'))
+    call setline('.', s:attach_tag(a:line, '理由'))
+endfunction
+
+function! vim_tag#evidence(line)
+    call setline('.', s:attach_tag(a:line, '証拠'))
 endfunction
 
 function! vim_tag#example(line)

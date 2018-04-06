@@ -8,9 +8,14 @@ Only lines which starts with "-" or "*"(i.e. the itemization of markdown) are th
     :Claim
 ```
 
-[根拠]
+[理由]
 ```
     :Reason
+```
+
+[証拠]
+```
+    :Evidence
 ```
 
 [例]
