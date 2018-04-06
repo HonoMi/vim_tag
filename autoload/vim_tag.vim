@@ -59,7 +59,6 @@ endfunction
 
 " -- タグを追加したい場合、この上を修正する。 --
 
-
 function! s:remove_tags(line)
     if a:line !~ ' *[-\*] \[\(' . s:mk_tags_regexp(s:tags) . '\)\].*'
         return a:line
@@ -68,10 +67,9 @@ function! s:remove_tags(line)
     endif
 endfunction
 
-function! vim_tag#reset(line)
+function! vim_tag#remove_tags(line)
     call setline('.', s:remove_tags(a:line))
 endfunction
-
 
 let &cpo = s:save_cpo
 unlet s:save_cpo

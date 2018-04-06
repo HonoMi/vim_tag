@@ -48,9 +48,9 @@ Only lines which starts with "-" or "*"(i.e. the itemization of markdown) are th
     :Done
 ```
 
-Reset all the tags attached to the line.
+Remove all the tags attached to the line.
 ```
-    :Reset
+    :RemoveTags
 ```
 
 # 参考
