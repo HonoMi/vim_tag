@@ -5,12 +5,12 @@ Only lines which starts with "-" or "*"(i.e. the itemization of markdown) are th
 ## how to use
 [主張]
 ```
-    :Message
+    :Claim
 ```
 
 [根拠]
 ```
-    :Argument
+    :Reason
 ```
 
 [例]

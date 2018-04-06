@@ -21,11 +21,11 @@ endfunction
 
 let s:tags = ['主張', '根拠', '例', '推測', '事実', '引用', '原因', 'done', '!']
 
-function! vim_tag#message(line)
+function! vim_tag#claim(line)
     call setline('.', s:attach_tag(a:line, '主張'))
 endfunction
 
-function! vim_tag#argument(line)
+function! vim_tag#reason(line)
     call setline('.', s:attach_tag(a:line, '根拠'))
 endfunction
 
