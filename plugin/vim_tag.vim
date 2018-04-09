@@ -8,6 +8,7 @@ set cpo&vim
 
 command! -nargs=0 RemoveTags call vim_tag#remove_tags(getline("."))
 command! -nargs=0 Claim call vim_tag#claim(getline("."))
+command! -nargs=0 Comment call vim_tag#comment(getline("."))
 command! -nargs=0 Reason call vim_tag#reason(getline("."))
 command! -nargs=0 Evidence call vim_tag#evidence(getline("."))
 command! -nargs=0 Example call vim_tag#example(getline("."))

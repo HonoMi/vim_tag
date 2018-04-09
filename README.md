@@ -8,6 +8,11 @@ Only lines which starts with "-" or "*"(i.e. the itemization of markdown) are th
     :Claim
 ```
 
+[所感]
+```
+    :Comment
+```
+
 [理由]
 ```
     :Reason
